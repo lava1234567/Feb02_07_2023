@@ -105,9 +105,12 @@ return windowHandle;
 //     WebElement findElement1 = driver.findElement(By.name(name));
 //	return findElement1;
 //	}
+//	 public static void sendKeys(WebElement e,String s) {
+//     e.sendKeys(s);
+//	}
 	 public static void sendKeys(WebElement e,String s) {
-     e.sendKeys(s);
-	}
+	     e.sendKeys(s);
+		}
 	 public static void click(WebElement e) {
      e.click();
 	}
