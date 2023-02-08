@@ -105,18 +105,19 @@ return windowHandle;
 //     WebElement findElement1 = driver.findElement(By.name(name));
 //	return findElement1;
 //	}
-//	 public static void sendKeys(WebElement e,String s) {
-//     e.sendKeys(s);
-//	}
 	 public static void sendKeys(WebElement e,String s) {
-	     e.sendKeys(s);
-		}
+     e.sendKeys(s);
+	}
 	 public static void click(WebElement e) {
      e.click();
 	}
 	 public static void clear(WebElement e) {
      e.clear();
+	 }
+	 public static void Close() {
+		 driver.close();
 	}
+	 
 	 public static String getAttribute(WebElement e, String name) {
      String attribute = e.getAttribute(name);
 	return attribute;                                       //both getAttribute and getUserText are same to get the value that we provide
