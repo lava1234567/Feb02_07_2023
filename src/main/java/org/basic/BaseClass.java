@@ -113,6 +113,10 @@ return windowHandle;
 	}
 	 public static void clear(WebElement e) {
      e.clear();
+    
+	}
+	 public static void Close() {
+		 driver.close();
 	}
 	 public static String getAttribute(WebElement e, String name) {
      String attribute = e.getAttribute(name);
